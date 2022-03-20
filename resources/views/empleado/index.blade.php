@@ -3,6 +3,7 @@
 @section('content')
 <div class="container">
 
+// mensaje desde create, edit, destroy
 @if(Session::has('mensaje'))
     <div class="alert alert-success alert-dismissible fade show" role="alert">
         <strong>{{ Session::get('mensaje')}}</strong>
